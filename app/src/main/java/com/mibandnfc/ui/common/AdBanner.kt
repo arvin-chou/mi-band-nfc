@@ -19,7 +19,6 @@ object AdConfig {
     const val BANNER_UNIT_ID = "ca-app-pub-1885267558624288/8579028555"
 
     const val KOFI_URL = "https://ko-fi.com/arvinchou"
-    const val GITHUB_SPONSORS_URL = "https://github.com/sponsors/arvin-chou"
     const val GITHUB_REPO_URL = "https://github.com/arvin-chou/mi-band-nfc"
 }
 

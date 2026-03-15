@@ -7,7 +7,7 @@ Manage NFC cards on your Xiaomi Smart Band 8 — switch between door access, tra
 <p align="center">
   <a href="https://github.com/arvin-chou/mi-band-nfc/releases/latest"><img src="https://img.shields.io/github/v/release/arvin-chou/mi-band-nfc?style=for-the-badge" alt="Release"></a>
   <a href="https://github.com/arvin-chou/mi-band-nfc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arvin-chou/mi-band-nfc?style=for-the-badge" alt="License"></a>
-  <a href="https://ko-fi.com/arvinchou"><img src="https://img.shields.io/badge/Ko--fi-Support-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
+  <a href="https://ko-fi.com/arvinchou"><img src="https://img.shields.io/badge/Ko--fi-Support%20this%20project-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
 </p>
 
 ---
@@ -136,7 +136,6 @@ This app is free and open source. If you find it useful:
 此 App 免費且開源。如果覺得有用：
 
 - ☕ [Ko-fi](https://ko-fi.com/arvinchou) — Buy me a coffee | 請我喝杯咖啡
-- 💜 [GitHub Sponsors](https://github.com/sponsors/arvin-chou) — Monthly support | 每月贊助
 - ⭐ Star this repo | 給個星星
 
 Supporters can remove ads in Settings → "Remove Ads".

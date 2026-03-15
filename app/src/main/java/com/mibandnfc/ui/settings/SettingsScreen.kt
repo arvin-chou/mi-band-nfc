@@ -27,7 +27,6 @@ import androidx.compose.material.icons.filled.LocalCafe
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Block
 import androidx.compose.material.icons.filled.Schedule
-import androidx.compose.material.icons.filled.VolunteerActivism
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -540,34 +539,17 @@ private fun SupportSection(
 
     Spacer(modifier = Modifier.height(12.dp))
 
-    Row(
+    FilledTonalButton(
+        onClick = { onOpenUrl(AdConfig.KOFI_URL) },
         modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        FilledTonalButton(
-            onClick = { onOpenUrl(AdConfig.KOFI_URL) },
-            modifier = Modifier.weight(1f),
-        ) {
-            Icon(
-                Icons.Filled.LocalCafe,
-                contentDescription = null,
-                modifier = Modifier.size(18.dp),
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text("Ko-fi", maxLines = 1)
-        }
-        FilledTonalButton(
-            onClick = { onOpenUrl(AdConfig.GITHUB_SPONSORS_URL) },
-            modifier = Modifier.weight(1f),
-        ) {
-            Icon(
-                Icons.Filled.VolunteerActivism,
-                contentDescription = null,
-                modifier = Modifier.size(18.dp),
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text("Sponsor", maxLines = 1)
-        }
+        Icon(
+            Icons.Filled.LocalCafe,
+            contentDescription = null,
+            modifier = Modifier.size(18.dp),
+        )
+        Spacer(modifier = Modifier.width(6.dp))
+        Text("Ko-fi — 請我喝杯咖啡", maxLines = 1)
     }
 
     Spacer(modifier = Modifier.height(8.dp))
